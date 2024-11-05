@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+    padding: 20px 40px 20px 40px;
+}
+.navBar{
+    width: 80%;
+    height: 80px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+#inputValue{
+    height: 40px;
+    width: 600px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgba(0, 234, 255, 0.533);
+    font-size: 25px;
+}
+.inputBox{
+    display: flex;
+    
+}
+#searchBtn{
+    width: 40px;
+    background-color: white;
+    outline: none;
+    border: 1px solid rgba(0,234,255,0.533);
+}
+#time{
+    font-size: 20px;
+}
+.sections{
+    width: 80%;
+    height: 40px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 12px;
+}
+.sections button{
+    padding: 2px;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 2px;
+    outline: none;
+}
+.newscontainer{
+    width: 80%;
+    /* height: 400px; */
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card{
+    height: 600px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card img{
+    width:100%;
+    height: 300px;
+    
+}
+@media(max-width:1100px){
+    .navBar{
+        width: 80%;
+        height: 80px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: aliceblue;
+        border-radius: 12px;
+    }
+    #inputValue{
+        height: 40px;
+        width: 300px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid rgba(0, 234, 255, 0.533);
+        font-size: 25px;
+    }
+    .inputBox{
+        display: flex;
+        
+    }
+    #searchBtn{
+        width: 40px;
+        background-color: white;
+        outline: none;
+        border: 1px solid rgba(0,234,255,0.533);
+    }
+    #time{
+        font-size: 20px;
+    }
+    .sections{
+        width: 80%;
+        height: 40px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        border-radius: 12px;
+        /* flex-wrap: wrap; */
+    }
+    .sections button{
+        padding: 2px;
+        background-color: white;
+        border: 1px solid blue;
+        border-radius: 2px;
+        outline: none;
+    }
+
+    .newscontainer{
+        width: 80%;
+        /* height: 400px; */
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .card{
+        height: 600px;
+        background-color: aqua;
+    }
+}
+@media(max-width:700px){
+    .navBar{
+        width: 80%;
+        height: 80px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: aliceblue;
+        border-radius: 12px;
+    }
+    #inputValue{
+        height: 40px;
+        width: 150px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid rgba(0, 234, 255, 0.533);
+        font-size: 25px;
+    }
+    .inputBox{
+        display: flex;
+        
+    }
+    #searchBtn{
+        width: 40px;
+        background-color: white;
+        outline: none;
+        border: 1px solid rgba(0,234,255,0.533);
+    }
+    #time{
+        font-size: 20px;
+    }
+    .sections{
+        width: 80%;
+        height: 40px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        border-radius: 12px;
+        flex-wrap: wrap;
+    }
+    .sections button{
+        padding: 2px;
+        background-color: white;
+        border: 1px solid blue;
+        border-radius: 2px;
+        outline: none;
+    }
+
+    .newscontainer{
+        width: 80%;
+        /* height: 400px; */
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+
+    }
+    .card{
+        height: 400px;
+        background-color: aqua;
+    }
+}
+@media(max-width:510px){
+    .navBar{
+        width: 80%;
+        height: 80px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: aliceblue;
+        border-radius: 12px;
+    }
+    #inputValue{
+        height: 40px;
+        width: 80px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid rgba(0, 234, 255, 0.533);
+        font-size: 25px;
+    }
+    .inputBox{
+        display: flex;
+        
+    }
+    #searchBtn{
+        width: 40px;
+        background-color: white;
+        outline: none;
+        border: 1px solid rgba(0,234,255,0.533);
+    }
+    #time{
+        font-size: 20px;
+    }
+    .sections{
+        width: 80%;
+        height: 40px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: white;
+        border-radius: 12px;
+        flex-wrap: wrap;
+    }
+    .sections button{
+        padding: 2px;
+        background-color: white;
+        border: 1px solid blue;
+        border-radius: 2px;
+        outline: none;
+    }
+}
+
+/* Only for section buttons*/
+@media(max-width:600px){
+    sections{
+        width: 80%;
+        height: 100px;
+        margin: 20px auto;
+        display: grid;
+        align-items: center;
+        /* flex-direction: row; */
+        justify-content: space-around;
+        background-color: white;
+        border-radius: 12px;
+        flex-wrap: wrap;
+        line-height: 10px;
+    }
+}
